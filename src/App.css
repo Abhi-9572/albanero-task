@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+.form{
+  border: 2px solid black;
+  width: 800px;
+ 
+  margin: auto;
+}
+
+.closeBtn{
+  margin-left: 760px;
+
+  
+}
+.closeBtn:hover{
+ cursor: pointer;
+ background-color: rgb(251, 18, 18);
+  
+  
+}
