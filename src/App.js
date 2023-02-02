@@ -31,7 +31,11 @@ function App() {
  
     setAddForm(temp);
   }
-  console.log(addForm);
+  const submitForm=()=>
+  {
+    console.log(addForm);
+  }
+  
   return (
 
     <div className="App">
@@ -50,7 +54,7 @@ function App() {
         }
         <br />
         <Button onClick={addNewForm} variant="contained" color="secondary">Add Another Form</Button><br/>
-        <br /><Button variant="contained" color="success"  >Submit</Button> 
+        <br /><Button variant="contained" color="success"  onClick={submitForm}>Submit</Button> 
         
 </div>
       </div>
